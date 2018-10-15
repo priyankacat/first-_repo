@@ -1,5 +1,6 @@
 #include<stdio.h>
-#include<conio.h>
+#include<conio.h
+#include<stdlib.h>
 void main()
 {
 int p,num;
@@ -9,9 +10,9 @@ int count=0;
 int rev=0;
 int rem;
 int a[1000];
-printf("enter the first elements");
+printf("enter the first elements u want to enter ");
 scanf("%d",&p);
-printf("enter the second elements");
+printf("enter the second elements u want to enter");
 scanf("%d",&q);
 printf("enter the value of k");
 scanf("%d",&k);
