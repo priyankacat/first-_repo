@@ -4,19 +4,19 @@ int main()
 int num,count=0;
 int rem,i;
 int rev=0;
-int p;
+int pri;
 int a[34];
-int q;
+int qri;
 printf("enter the starting number");
-scanf("%d",&p);
+scanf("%d",&pri);
 printf("enter the ending number");
-scanf("%d",&q);
-for(i=p;i<=q;i++)
+scanf("%d",&qri);
+for(i=pri;i<=qri;i++)
 {
 printf("enter the number");
 scanf("%d",&a[i]);
 }
-for(i=p;i<=q;i++)
+for(i=pri;i<=qri;i++)
 {
 num=a[i];
 rev=0;
@@ -33,7 +33,7 @@ if((rev-num)%2==0)
 count=count+1;
 }
 }
-printf("%d",count);
+printf(" the final answer %d",count);
 return 0;
 }
 
