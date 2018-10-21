@@ -1,3 +1,10 @@
+a=int(input("enter the number")
+b=a+10
+print(b)
+if b>10:
+      print("no is greater than 10")
+else:
+      print("no is less than 10")
 p=input("enter your name")
 q=int(input("enter yr age"))
 r=input("enter batch")
