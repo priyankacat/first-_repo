@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include<conio.h
 #include<stdlib.h>
+#inclde<math.h>
+#include<stdlib.h>
 void main()
 {
 int p,num;
@@ -11,6 +13,7 @@ int rev=0;
 int rem;
 int a[1000];
 printf("enter the first elements u want to enter ");
+printf("please enter the number again");
 scanf("%d",&p);
 printf("enter the second elements u want to enter");
 scanf("%d",&q);
@@ -25,6 +28,7 @@ for(i=p;i<=q;i++)
         rem=num%10;
         rev=rem+rev*10;
         num=num/10;
+        printf("no is %d",num);
     }
     num=i;
     printf("%d\n",rev);
@@ -32,6 +36,7 @@ for(i=p;i<=q;i++)
     if((rev-num)%k==0||rev-num==0)
     {   printf("no is found\n");
         count=count+1;
+     printf("no is found is %d",count);
     }
 }
 printf("%d\n",count);
