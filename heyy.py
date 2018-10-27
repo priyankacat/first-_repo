@@ -10,4 +10,10 @@ while p>0:
   
   
               world''')
-print("we got the final answe")
+print("we got the final answer")
+pr=int(input("enter the number of terms"))
+pr=pr+5
+if(pr>10):
+      print("no is greater than 10")
+else:
+      print("no is less than 10")
